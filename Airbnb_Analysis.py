@@ -15,7 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.title(':rainbow[AirBnb Geospatial Analysis] 🌍')
 
-data = pd.read_csv(r'C:\Users\ELCOT\Desktop\airbnb_dataset.csv')
+data = pd.read_csv(r'C:\Users\ELCOT\Desktop\Airbnb_Analysis.csv')
 
 aggregated = data.groupby(['country','city']).count()
 
